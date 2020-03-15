@@ -96,6 +96,14 @@ public class EmailUtil {
 
 	}
 
+	
+	/*
+		props.put("mail.smtp.host", "smtp-mail.outlook.com");
+		props.put("mail.smtp.port", "587");
+		props.put("mail.smtp.starttls.enable","true");
+		props.put("mail.smtp.auth", "true");
+		
+	*/
 
 	public static void sendAttachmentEmail(String from, String password, String toEmail, String subject, String body){
 		Properties props = new Properties();
